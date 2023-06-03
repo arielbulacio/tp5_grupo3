@@ -17,5 +17,18 @@ public class UsuarioNegocio {
 			return true;
 		}
 		return false;
+		
+		
 	}
+	
+     /*   public void initUsuarioNegocio() {
+		System.out.println("Se inicializa bean");
+	}
+	
+	public void destroyUsuarioNegocio() {
+		System.out.println("Se cierra bean");
+	}
+
+	*/
+	
 }
