@@ -14,6 +14,11 @@ public class Main {
 		Usuario p1 = (Usuario)appContext.getBean("Usuario");
 		System.out.println(p1.toString());
 		
+		/* UsuarioNegocio n1 = (UsuarioNegocio)appContext.getBean("UsuarioNegocio");
+		System.out.println(p1.toString());
+		*/
+
+		
 		((ConfigurableApplicationContext)(appContext)).close();
 	}	
 }
